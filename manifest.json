@@ -1,6 +1,6 @@
 {
   "id": "community.treehouseofhorror.collection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "The Simpsons: Treehouse of Horror",
   "description": "A curated Stremio catalogue containing the annual Simpsons Treehouse of Horror episodes.",
   "logo": "https://m.media-amazon.com/images/M/MV5BY2ZmZTM4OGYtZGYwYS00MWE0LThkZmEtODI5NmI5ODBjZWQzXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
@@ -18,7 +18,13 @@
     {
       "type": "series",
       "id": "treehouse-of-horror",
-      "name": "🎃 The Simpsons: Treehouse of Horror"
+      "name": "🎃 The Simpsons: Treehouse of Horror",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     }
   ],
   "behaviorHints": {
